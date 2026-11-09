@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Phạm Nguyễn Tất Đạt | 2A202603401 | Nhóm trưởng, Pitch candidate chính, Thiết kế quy trình & Problem Statement | datnguyen101004 |
 | 2 | Nguyễn Ngọc Toàn | 2A202603405 | Phản biện chính, Phụ trách Kiểm chứng (Assumption & Interview) | jpack1 |
-| 3 | Nguyễn Tuấn Quang | 202603392 | Phụ trách Research giải pháp thị trường, Đánh giá rủi ro & Tiêu chí Eval | |
+| 3 | Nguyễn Tuấn Quang | 202603392 | Phụ trách CP4 Research và CP6 Quyết định, hỗ trợ tiêu chí đánh giá đầu ra | quangbg004 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -89,3 +89,25 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Khi tính impact phải nhân với số người cùng mất thời gian: card trade-off cuộc họp của Đạt cũng mất khoảng 25 phút nhưng kéo theo 4–8 người, nên impact lớn hơn nhiều so với các card pain cá nhân của mình.
 - Phản biện tốt giúp chọn đúng bài toán: câu hỏi của Đạt ("viết FAQ Notion có giải quyết được 80% không?") khiến mình chấp nhận loại card #4 vì phần lớn giải được bằng No AI.
 - Kiểm chứng thật làm thay đổi thiết kế: người được phỏng vấn cần AI liệt kê trade-off trung lập chứ không cần AI chọn hộ, nên nhóm thêm boundary AI không kết luận thay; đối thủ thật của giải pháp là một người facilitator ghi Pros/Cons, không phải "không có gì".
+
+### NguyenTuanQuang-202603392
+
+**Phần việc phụ trách:**
+
+- Phụ trách chính CP4 Research và CP6 Quyết định.
+- Hỗ trợ CP3 Hội tụ nhóm, CP4 Kiểm chứng, CP5 Quy trình và Problem Statement v0, CP6 Mức can thiệp và Problem Statement v1.
+
+**Đóng góp cụ thể:**
+
+- Đối chiếu Otter.ai, Fireflies.ai, Granola và mẫu ADR. Đề xuất tận dụng bản chép lời có sẵn và so sánh đầu ra Copilot với bảng do người điều phối tự điền.
+- Tổng hợp bốn rủi ro, ghi rõ phạm vi Go cho PoC và cách đo ngưỡng dừng sau ba buổi pilot.
+- Phản biện phương án AI chen ngang cuộc họp và đặt câu hỏi về tần suất gặp vấn đề onboarding ở CP3.
+
+**Bằng chứng:**
+
+- [Báo cáo nhóm](report/team/group_report.md), mục 2.1 về pitch, mục 3.3 về research và mục 8 về quyết định.
+- [Báo cáo cá nhân](report/individual/202603392_NguyenTuanQuang.md), mục 4 và 5.
+
+**Điều mình học được từ phần nhóm:**
+
+- Khi đánh giá một công cụ họp, cần thử trên cùng một bản chép lời để xem bảng so sánh có đủ căn cứ và người điều phối mất bao lâu để kiểm tra.

@@ -86,4 +86,6 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
-- __
+- Khi tính impact phải nhân với số người cùng mất thời gian: card trade-off cuộc họp của Đạt cũng mất khoảng 25 phút nhưng kéo theo 4–8 người, nên impact lớn hơn nhiều so với các card pain cá nhân của mình.
+- Phản biện tốt giúp chọn đúng bài toán: câu hỏi của Đạt ("viết FAQ Notion có giải quyết được 80% không?") khiến mình chấp nhận loại card #4 vì phần lớn giải được bằng No AI.
+- Kiểm chứng thật làm thay đổi thiết kế: người được phỏng vấn cần AI liệt kê trade-off trung lập chứ không cần AI chọn hộ, nên nhóm thêm boundary AI không kết luận thay; đối thủ thật của giải pháp là một người facilitator ghi Pros/Cons, không phải "không có gì".

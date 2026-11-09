@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Phạm Nguyễn Tất Đạt | 2A202603401 | Nhóm trưởng, Pitch candidate chính, Thiết kế quy trình & Problem Statement | datnguyen101004 |
 | 2 | Nguyễn Ngọc Toàn | 2A202603405 | Phản biện chính, Phụ trách Kiểm chứng (Assumption & Interview) | jpack1 |
-| 3 | Nguyễn Tuấn Quang | 202603392 | Phụ trách CP4 Research và CP6 Quyết định, hỗ trợ tiêu chí đánh giá đầu ra | quangbg004 |
+| 3 | Nguyễn Tuấn Quang | 2A202603392 | Phụ trách CP4 Research và CP6 Quyết định, hỗ trợ tiêu chí đánh giá đầu ra | quangbg004 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -90,7 +90,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Phản biện tốt giúp chọn đúng bài toán: câu hỏi của Đạt ("viết FAQ Notion có giải quyết được 80% không?") khiến mình chấp nhận loại card #4 vì phần lớn giải được bằng No AI.
 - Kiểm chứng thật làm thay đổi thiết kế: người được phỏng vấn cần AI liệt kê trade-off trung lập chứ không cần AI chọn hộ, nên nhóm thêm boundary AI không kết luận thay; đối thủ thật của giải pháp là một người facilitator ghi Pros/Cons, không phải "không có gì".
 
-### NguyenTuanQuang-202603392
+### NguyenTuanQuang-2A202603392
 
 **Phần việc phụ trách:**
 
@@ -106,7 +106,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Bằng chứng:**
 
 - [Báo cáo nhóm](report/team/group_report.md), mục 2.1 về pitch, mục 3.3 về research và mục 8 về quyết định.
-- [Báo cáo cá nhân](report/individual/202603392_NguyenTuanQuang.md), mục 4 và 5.
+- [Báo cáo cá nhân](report/individual/2A202603392_NguyenTuanQuang.md), mục 4 và 5.
 
 **Điều mình học được từ phần nhóm:**
 

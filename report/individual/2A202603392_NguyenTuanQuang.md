@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — 202603392_NguyenTuanQuang
+# Báo cáo cá nhân — 2A202603392_NguyenTuanQuang
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -7,7 +7,7 @@
 ## 1. Thông tin học viên
 
 - Họ tên:Nguyễn Tuấn Quang
-- MSSV:202603392
+- MSSV:2A202603392
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm:tido
 - Link repo nhóm:https://github.com/datnguyen101004/K5-L3A-DAY02-tido-DiscoveryProblemFraming.git
@@ -53,7 +53,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Quy trình hiện tại (3–7 bước) | 1. Tái hiện lỗi → 2. Kiểm tra phần cứng → 3. Thêm log hoặc dùng debugger → 4. Đối chiếu datasheet/errata → 5. Sửa, nạp lại và kiểm thử. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Bước 2–3 thường phải lặp; riêng bước 3 ước tính 60–120 phút cho một lượt. |
 | Impact (nếu không giải thì sao) | Một ca debug ước tính 3–6 giờ; bỏ sót phép kiểm tra cơ bản có thể khiến tôi sửa sai hướng. |
-| Success metric (baseline → target) | Baseline tạm tính 3–6 giờ/ca. Ghi thời gian và số lần lặp của ít nhất 3 ca trước khi chốt target theo phút; mục tiêu ban đầu là giảm số phép kiểm tra lặp lại. |
+| Success metric (baseline → target) | Tổng thời gian tạm tính 3–6 giờ/ca. Ghi số lần phải làm lại một phép kiểm tra vì chưa lưu kết quả ở ít nhất 3 ca để lập baseline. Mục tiêu thử nghiệm là giảm ít nhất 1 lần kiểm tra lặp lại mỗi ca, tính trung bình trên 3 ca tương tự có dùng checklist và sổ log. |
 | Phương án không dùng AI | Checklist theo loại lỗi và nhật ký các phép đo đã làm. |
 | Giả thuyết về AI (nếu có) | AI phản biện giả thuyết nguyên nhân dựa trên triệu chứng và log; mọi gợi ý phải được kiểm bằng phép đo. |
 | Cảm nhận nhanh | Chưa biết; thử checklist và nhật ký trước. |
@@ -137,7 +137,7 @@ Các mốc thời gian là ước tính.
 |---|---|---|
 | Pitch Problem Card | Trình bày ba card: debug firmware, ôn phỏng vấn embedded bằng tiếng Anh và viết CV. | Cả ba được ghi trong bảng pitch của báo cáo nhóm; card debug firmware được đưa vào thảo luận. |
 | Phản biện bài của bạn khác | Theo bảng pitch nhóm, tôi hỏi Đạt: “Nếu AI chen ngang ngắt lời real-time khi mọi người đang nói thì có gây ức chế và ngắt mạch họp không?”; hỏi Toàn: “Tần suất vào project mới của một dev thấp, tổng impact cả năm có đủ lớn không?” | Câu hỏi thứ nhất đặt vấn đề về trải nghiệm họp và boundary; câu thứ hai yêu cầu kiểm tra impact theo tần suất thực tế. |
-| Nhận phản biện | Đạt hỏi nhiều lỗi embedded do phần cứng vật lý (hở chân, nhiễu nguồn), nếu chỉ cần sổ log debug thì đã giải quyết chưa?; Toàn hỏi điểm khác biệt của bài ôn phỏng vấn so với công cụ có sẵn. | Tôi giữ checklist và nhật ký debug làm phương án không dùng AI; chưa chốt AI cho card này. |
+| Nhận phản biện | Đạt hỏi liệu sổ log đã đủ để xử lý việc kiểm tra lặp lại khi nhiều lỗi đến từ phần cứng. Toàn hỏi bài ôn phỏng vấn khác gì so với công cụ có sẵn. Đạt cũng hỏi liệu thư viện bullet mẫu đã đủ cho bài viết CV. | Card debug ưu tiên thử checklist và sổ log. Card phỏng vấn có phương án tái sử dụng bộ ý và thuật ngữ. Card CV có phương án thử thư viện bullet và checklist trước khi cân nhắc AI. |
 | Gom cluster / cây OST | Được phân công hỗ trợ CP3: xem các candidate theo actor, pain và outcome để góp ý khi nhóm gom cluster và dựng OST. | Phần nhóm do Đạt phụ trách chính; kết quả chính thức nằm ở mục 2 báo cáo nhóm. |
 | Chọn candidate problem | Hỗ trợ CP3 bằng cách đối chiếu card của mình với candidate của Đạt và Toàn theo bottleneck, bằng chứng và tính vừa sức lab. | Nhóm chọn candidate về bế tắc khi so sánh phương án trong họp kỹ thuật; không chọn ba card embedded của tôi. |
 | Kiểm chứng / research | Phụ trách CP4 Research: đối chiếu Otter.ai, Fireflies.ai, Granola.ai và mẫu ADR; kiểm tài liệu chính thức về transcript, tóm tắt, action items và tùy biến. | Nhóm chọn tận dụng transcript có sẵn, tập trung PoC vào bảng trade-off và định dạng ADR. Khả năng công cụ hiện có xử lý trade-off vẫn cần thử trực tiếp. |
